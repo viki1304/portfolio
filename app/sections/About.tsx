@@ -41,7 +41,7 @@ export default function About() {
         'Oracle Certified Associate, Java SE 8 Programmer',
         'PerfectPlanB Python and ML Certification',
         'IBM Python for data science',
-        'Infosys SpringboardLearn and Master C programming',
+        'Infosys Springboard Learn and Master C programming',
         'BEC Certified in English'
       ],
       icon: <Award size={20} />
