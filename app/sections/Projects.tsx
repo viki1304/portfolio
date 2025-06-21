@@ -15,83 +15,65 @@ export default function Projects() {
       description: 'Modern portfolio website built with Next.js and Tailwind CSS featuring animated components, interactive UI elements, and dark/light mode support. Implements advanced animations using Framer Motion and responsive design principles.',
       category: 'Frontend',
       skills: ['Next.js', 'React', 'Tailwind CSS', 'Framer Motion', 'Three.js'],
-      github: 'https://github.com/VigneshB1304/portfolio-next',
+      github: 'https://github.com/viki1304/portfolio',
       demo: '#',
       highlights: [
         'Custom animations and transitions',
         'Responsive design',
-        'Dark/Light mode',
         'SEO optimized'
       ]
     },
     {
-      title: 'E-commerce Dashboard',
-      description: 'Full-featured admin dashboard for online retail platform with real-time analytics, inventory management, and customer insights. Implements secure authentication and role-based access control.',
+      title: 'Phishing application',
+      description: 'A phishing application that allows users to test their phishing skills by sending phishing emails to a list of recipients. It also allows users to view the results of the phishing emails.',
       category: 'Full Stack',
-      skills: ['React', 'Node.js', 'MongoDB', 'Express', 'JWT Authentication', 'Chart.js'],
-      github: 'https://github.com/VigneshB1304/ecommerce-dashboard',
-      demo: '#',
+      skills: ['React ts', 'Nest.js', 'Sql database', 'Express', 'JWT Authentication', 'Chart.js','Tailwind CSS','OAuth', 'Stripe','Razorpay'],
+      // github: 'https://github.com/VigneshB1304/ecommerce-dashboard',
+      demo: 'deepphish.in',
       highlights: [
+        'Phishing application',
         'Real-time data visualization',
-        'Role-based access control',
-        'Inventory tracking',
-        'Sales analytics'
+        'Role-based access control'
       ]
     },
+    
     {
-      title: 'Secure Banking Application',
-      description: 'Robust banking portal featuring multi-factor authentication, secure transaction processing, and financial data visualization. Implements industry-standard security practices and real-time updates.',
+      title: 'Dorking application',
+      description: 'A dorking application that allows users to scrap the data from the web and save it in the database.',
       category: 'Full Stack',
-      skills: ['React', 'Node.js', 'MySQL', 'Express', 'OAuth', 'Encryption'],
-      github: 'https://github.com/VigneshB1304/secure-banking',
-      demo: '#',
+      skills: ['React ts', 'FastAPI', 'Sql database', 'Express', 'JWT Authentication', 'Chart.js','Tailwind CSS','OAuth', 'Stripe','Razorpay'],
+      // github: 'https://github.com/VigneshB1304/rest-api-service',
+      demo: 'deepscanx.finstein.in',
       highlights: [
-        'Multi-factor authentication',
-        'End-to-end encryption',
-        'Real-time transactions',
-        'Audit logging'
+        'Dorking application',
+        'Real-time data visualization',
+        'Role-based access control'
       ]
     },
     {
-      title: 'RESTful API Service',
-      description: 'High-performance backend API framework with comprehensive documentation, automated testing, and monitoring. Features rate limiting, caching, and detailed error handling.',
-      category: 'Backend',
-      skills: ['Node.js', 'Express', 'MongoDB', 'JWT', 'Swagger', 'Jest'],
-      github: 'https://github.com/VigneshB1304/rest-api-service',
+      title: 'VAPT Automation',
+      description: 'A VAPT automation tool that allows users to automate the VAPT process and save the results in the database.',
+      category: 'Full Stack',
+      skills: ['React ts', 'FastAPI', 'Sql database', 'Express', 'JWT Authentication', 'Chart.js','Tailwind CSS','OAuth', 'Stripe','Razorpay'],
+      // github: 'https://github.com/VigneshB1304/data-dashboard',
       demo: '#',
       highlights: [
-        'API documentation',
-        'Rate limiting',
-        'Caching system',
-        'Automated testing'
+        'VAPT automation',
+        'Real-time data visualization',
+        'Role-based access control'
       ]
     },
     {
-      title: 'Data Analysis Dashboard',
-      description: 'Interactive data visualization platform for financial metrics with real-time updates and customizable reports. Implements advanced charting and data export functionality.',
-      category: 'Data',
-      skills: ['Python', 'Pandas', 'React', 'D3.js', 'SQL', 'API Integration'],
-      github: 'https://github.com/VigneshB1304/data-dashboard',
+      title: 'AI-based learning platform',
+      description: 'A AI-based learning platform that allows users to learn new skills and save the results in the database.',
+      category: 'Full Stack',
+      skills: ['React ts', 'FastAPI', 'Sql database', 'Express', 'JWT Authentication', 'Chart.js','Tailwind CSS','OAuth', 'Stripe','Razorpay'],
+      // github: 'https://github.com/VigneshB1304/responsive-web-app',
       demo: '#',
       highlights: [
-        'Interactive visualizations',
-        'Custom reporting',
-        'Data export',
-        'Real-time updates'
-      ]
-    },
-    {
-      title: 'Mobile-Responsive Web App',
-      description: 'Cross-platform progressive web application with offline capabilities and synchronized data. Features push notifications and responsive design for all device sizes.',
-      category: 'Frontend',
-      skills: ['React', 'Progressive Web App', 'Service Workers', 'IndexedDB', 'Firebase'],
-      github: 'https://github.com/VigneshB1304/responsive-web-app',
-      demo: '#',
-      highlights: [
-        'Offline functionality',
-        'Push notifications',
-        'Cross-platform support',
-        'Data synchronization'
+        'AI-based learning platform',
+        'Real-time data visualization',
+        'Role-based access control'
       ]
     }
   ];
@@ -390,7 +372,7 @@ export default function Projects() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
               >
-                <motion.a
+                {/* <motion.a
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -400,7 +382,7 @@ export default function Projects() {
                 >
                   <Github size={18} />
                   <span>View Code</span>
-                </motion.a>
+                </motion.a> */}
 
                 <motion.a
                   href={project.demo}

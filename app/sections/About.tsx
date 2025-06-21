@@ -38,10 +38,11 @@ export default function About() {
     {
       title: 'Certifications',
       items: [
-        'AWS Certified Developer Associate',
-        'MongoDB Developer Certification',
-        'Google Cloud Platform Fundamentals',
-        'React Native Specialization'
+        'Oracle Certified Associate, Java SE 8 Programmer',
+        'PerfectPlanB Python and ML Certification',
+        'IBM Python for data science',
+        'Infosys SpringboardLearn and Master C programming',
+        'BEC Certified in English'
       ],
       icon: <Award size={20} />
     }
